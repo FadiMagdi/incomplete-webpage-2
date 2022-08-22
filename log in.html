@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <link rel="stylesheet" href="style.css">
+       
+        <title>Project 1-log-in</title>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <ul class="navbar__menu">
+                    <li class="navbar_item">
+                        <a href="#home" class="navbar__links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#Account" class="navbar__links" id="Account">Account</a>
+                    </li>
+                    <li>
+                        <a href="#menu" class="navbar__links" id="menu_page">Menu</a>
+                    </li>
+                    </ul>
+                    <a href="#home" class="title1"><h1>Chick</h1></a>
+                    <a href="#home" id="navbar-logo"><img src="logo7.png" id="logo" width="335px" height="291px"  alt=""></a>
+                    <a href="#home" class="title2"><h1>Out</h1></a>
+                    <ul class="navbar__menu">
+                    <li>
+                        <a href="cart"class="navbar__links crt" id="#cart-page" alt=""><img src="cart 2.png" width="70px" height="63px"></a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#About us" class="navbar__links" id="About-page">About Us</a>
+                    </li>
+                    <li class="navbar_btn">
+                        <a href="#sign-up" class="button" id="sign-up">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+       <!--my work-->
+
+        <div class="formwrapper"  id ="aform">
+            <span class = "closebtn">&times;</span>
+<p id="afront" > log in </p>
+
+<form class="log-in-form">
+<label for="username"><p class="front">Username</p></label> <br>
+<input  type="text" class="textinput" id="username" name="username" placeholder="Enter your username" required> <br>
+<p class="msg">Error Message</p>
+<label for="E-mail"><p class="front">E-mail</p></label> <br>
+<input type="email" class="textinput" id="E-mail" name="email" placeholder="Enter your e-mail" required> <br>
+<p class="msg">Error Message</p>
+<label for="password"><p class="front">Password</p></label> <br>
+<input type="password"class="textinput" id="password" name="password" placeholder="Enter Password" required> <br>
+<p class="msg">Error Message</p>
+<input class = "subbutton" type="button" value="submit">
+<p class ="atbottom" >Remember me</p>:<input class="box" type="checkbox"> <br>
+<a class="forgot" href="#"> forgot your password?</a>
+</form>
+
+
+        </div>
+       <!--my work-->
+    </body>
+    <script src="login query.js"></script>
+</html>

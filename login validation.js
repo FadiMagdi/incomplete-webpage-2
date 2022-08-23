@@ -37,6 +37,7 @@ return false;
 }
 const signin = e =>
 {
+    e.preventDefault();
     let correctemail=false;
     let correctusername=false;
      let correctpassword=false;
